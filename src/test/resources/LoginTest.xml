@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name='Login In LinkedIn' verbose='10'  parallel="tests" thread-count="1">
+ 	   		
+	   	
+	  <test name="Test to login in linkedin" enabled="true">
+		<classes>
+			<class name="com.linkedInTest.tests.LoginTest">
+				<methods>
+					<include name="login" />
+				</methods>
+			 </class>
+		</classes>
+	  </test>	
+	  
+	  </suite>
